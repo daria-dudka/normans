@@ -1,6 +1,7 @@
 .form {
   padding: 10px 0;
   display: flex;
+  flex-wrap: wrap;
   width: fit-content;
   align-items: center;
   gap: 20px;

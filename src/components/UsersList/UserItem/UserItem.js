@@ -21,18 +21,25 @@ function UserItem(props) {
 
   return (
     <li
+      data-testid='user-item'
       onClick={clickUserHandler}
       className={`${classes.item} ${classNameStatus}`}
     >
       <div className={classes.content}>
         <div className={classes.image}>
-          <img src={props.user.profileImage} alt={props.user.lastName} />
+          <img
+            data-testid='user-img'
+            src={props.user.profileImage}
+            alt={props.user.lastName}
+          />
         </div>
-        <h2 className={classes.name}>
+        <h2 data-testid='user-name' className={classes.name}>
           {props.user.firstName} {props.user.lastName}
         </h2>
       </div>
-      <p className={classes.title}>{props.user.title}</p>
+      <p data-testid='user-title' className={classes.title}>
+        {props.user.title}
+      </p>
       <DeleteBtn id={props.user.id} getClickedUserId={props.getClickedUserId} />
     </li>
   );

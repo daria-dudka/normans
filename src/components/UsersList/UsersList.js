@@ -3,7 +3,7 @@ import UserItem from './UserItem/UserItem';
 
 function UsersList(props) {
   return (
-    <ul className={classes.list}>
+    <ul data-testid='users-list' className={classes.list}>
       {props.users.map((user) => (
         <UserItem
           user={user}

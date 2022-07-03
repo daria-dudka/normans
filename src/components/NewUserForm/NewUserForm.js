@@ -33,7 +33,11 @@ function NewUserForm(props) {
   }
 
   return (
-    <form className={classes.form} onSubmit={submitHandler}>
+    <form
+      data-testid='user-form'
+      className={classes.form}
+      onSubmit={submitHandler}
+    >
       <div className={classes.control}>
         <label htmlFor='firstName'>First Name</label>
         <input
