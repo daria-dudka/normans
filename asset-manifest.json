@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/normans/static/css/main.08ce4c8a.css",
+    "main.js": "/normans/static/js/main.ca0c27b2.js",
+    "index.html": "/normans/index.html",
+    "main.08ce4c8a.css.map": "/normans/static/css/main.08ce4c8a.css.map",
+    "main.ca0c27b2.js.map": "/normans/static/js/main.ca0c27b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08ce4c8a.css",
+    "static/js/main.ca0c27b2.js"
+  ]
+}
